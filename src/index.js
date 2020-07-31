@@ -6,6 +6,9 @@ import * as serviceWorker from './serviceWorker';
 
 ReactDOM.render(
   <React.StrictMode>
+    <style>
+      @import url('https://fonts.googleapis.com/css2?family=Krona+One&display=swap');
+    </style>
     <App />
   </React.StrictMode>,
   document.getElementById('root')
