@@ -1,0 +1,27 @@
+{
+  "short_name": "Component Example",
+  "name": "Component Example",
+  "icons": [
+    {
+      "src": "icons/chevron-left-dark.svg",
+      "sizes": "N/A",
+      "type": "image/svg"
+    },
+    {
+      "src": "icons/chevron-left-light.svg",
+      "type": "image/svg",
+      "sizes": "N/A"
+    },
+    {
+      "src": "icons/chevron-right-dark.svg",
+      "type": "image/svg",
+      "sizes": "N/A"
+    }, {
+      "src": "icons/chevron-right-light.svg",
+      "type": "image/svg",
+      "sizes": "N/A"
+    }
+  ],
+  "start_url": ".",
+  "display": "standalone"
+}

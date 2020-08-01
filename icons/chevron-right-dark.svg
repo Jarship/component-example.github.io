@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="24px" height="24px" viewBox="0 0 24 24" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>Icons / Chevron Right - dark</title>
+    <g id="Icons-/-Chevron-Right---dark" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Chevron-Right" transform="translate(12.000000, 12.000000) scale(-1, 1) rotate(-180.000000) translate(-12.000000, -12.000000) ">
+            <polygon id="Path" points="0 0 24 0 24 24 0 24"></polygon>
+            <polygon id="Path" fill="#25282A" fill-rule="nonzero" points="10.4 4.8 8.708 6.492 14.204 12 8.708 17.508 10.4 19.2 17.6 12"></polygon>
+        </g>
+    </g>
+</svg>
