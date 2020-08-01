@@ -1,16 +1,25 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import './index.css';
 import App from './App';
+import { Global, css } from '@emotion/core';
+import { ThemeProvider } from 'emotion-theming';
 import * as serviceWorker from './serviceWorker';
+import theme, { globalStyles } from './theme';
 
 ReactDOM.render(
-  <React.StrictMode>
-    <style>
-      @import url('https://fonts.googleapis.com/css2?family=Krona+One&display=swap');
-    </style>
-    <App />
-  </React.StrictMode>,
+  <>
+    <Global
+        styles={css`
+        ${globalStyles}
+        `}
+      />
+    <React.StrictMode>
+      <ThemeProvider theme={theme}>
+        <App />
+      </ThemeProvider>
+    </React.StrictMode>
+  </>
+  ,
   document.getElementById('root')
 );
 
