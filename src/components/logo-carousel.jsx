@@ -37,8 +37,8 @@ const LogoCarousel = props => {
     slidesToShow: 3,
     slidesToScroll: 1,
     dots: false,
-    nextArrow: <img src={`/icons/chevron-right-${background === "Light" ? "dark" : "light"}.svg`} alt="next-kitten" />,
-    prevArrow: <img src={`/icons/chevron-left-${background === "Light" ? "dark" : "light"}.svg`} alt="prev-kitten" />,
+    nextArrow: <img src={`/component-example/icons/chevron-right-${background === "Light" ? "dark" : "light"}.svg`} alt="next-kitten" />,
+    prevArrow: <img src={`/component-example/icons/chevron-left-${background === "Light" ? "dark" : "light"}.svg`} alt="prev-kitten" />,
     responsive: [
       {
         breakpoint: 767,
