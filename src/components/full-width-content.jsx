@@ -1,4 +1,4 @@
-import { color, space, flexbox } from 'styled-system';
+import { color, space, flexbox, background, position, layout } from 'styled-system';
 import styled from '@emotion/styled';
 
 const FullWidthContent = styled.div(
@@ -6,7 +6,10 @@ const FullWidthContent = styled.div(
   `,
   color,
   space,
-  flexbox
+  flexbox,
+  background,
+  position,
+  layout
 );
 
 export default FullWidthContent;

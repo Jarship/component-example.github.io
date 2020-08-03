@@ -1,4 +1,4 @@
-import { color, space, typography } from 'styled-system';
+import { color, space, typography, position } from 'styled-system';
 import styled from '@emotion/styled';
 
 const Text = styled.p(
@@ -7,7 +7,8 @@ const Text = styled.p(
   `,
   color,
   space,
-  typography
+  typography,
+  position
 );
 
 export default Text;

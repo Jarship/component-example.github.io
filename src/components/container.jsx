@@ -1,4 +1,4 @@
-import { color, space } from 'styled-system';
+import { color, space, position, layout } from 'styled-system';
 import styled from '@emotion/styled';
 
 const Container = styled.div(
@@ -18,7 +18,9 @@ const Container = styled.div(
     }
   `,
   color,
-  space
+  space,
+  position,
+  layout
 );
 
 Container.defaultProps = {

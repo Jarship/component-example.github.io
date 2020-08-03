@@ -1,4 +1,4 @@
-import { color, typography, space } from 'styled-system';
+import { color, typography, space, position } from 'styled-system';
 import styled from '@emotion/styled';
 
 const ComponentTitle = styled.h2(
@@ -7,7 +7,8 @@ const ComponentTitle = styled.h2(
   `,
   color,
   typography,
-  space
+  space,
+  position
 );
 
 ComponentTitle.defaultProps = {

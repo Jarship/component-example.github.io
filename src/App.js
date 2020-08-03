@@ -1,6 +1,5 @@
 import React from 'react';
-import { ComponentTitle, LogoCarousel} from "./components";
-
+import { ComponentTitle, LogoCarousel, HeroBannerTitleDescrition} from "./components";
 
 const LogoItems = [
   {
@@ -28,6 +27,7 @@ const LogoItems = [
 function App() {
   return (
     <>
+    <HeroBannerTitleDescrition title="General Hero Video Banner" />
       <ComponentTitle bg="#f6f4f3">Light Kitten Carousel</ComponentTitle>
       <LogoCarousel background="Light" logoItems={LogoItems} />
       <ComponentTitle bg="#f6f4f3">Dark Kitten Carousel</ComponentTitle>
